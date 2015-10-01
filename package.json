@@ -1,0 +1,16 @@
+{
+  "name": "flickr-board",
+  "description": "A flickr photo board",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirandaio/flickr-board"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.0"
+  },
+  "license": "ISC"
+}
