@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 8080;
 
-app.get('/', function(req, res) {
-  res.end('hey there');
-});
+app.use(express.static('views'));
+app.use(express.static('bower_components'));
 
 app.listen(port);
