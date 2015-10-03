@@ -1,0 +1,42 @@
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo, .photo {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  height: 60px;
+  text-align: center;
+}
+
+.button-group {
+  width: 250px;
+  margin: 0 auto 10px auto;
+}
+
+.logo {
+  height: 180px;
+  margin-bottom: 15px;
+}
+
+.photo {
+  margin-bottom: 15px;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
